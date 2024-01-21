@@ -1,0 +1,177 @@
+@font-face {
+    font-family: norseBold;
+    src:url(fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.container-main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+    background-image: url(images/background-image.jpg);
+    background-size: cover;
+}
+
+.container-right{
+    width: auto;
+    height: 100%;
+}
+
+.odin-banner {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#odin-logo {
+    height: 100px;
+}
+
+.odin-logo-text {
+    color: white;
+    font-family: norseBold;
+    font-size: 80px;
+    padding-top: 10px;
+}
+
+.banner-credit {
+    text-align: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.container-right {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 520px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-bottom{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    background-color: #596D48;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0 2px 4px 2px rgba(40,40,40,0.2);
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.green {
+    color: #596D48;
+    font-weight: 600;
+}
+
+form {
+    display: grid;
+    background-color: white;
+}
+
+.form-heading-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.form-top {
+    max-width: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    background-color: white;
+    padding: 15px 30px 35px 30px;
+}
+
+.input-box {
+    width: 80%;
+    height: 20px;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+input {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+input:focus {
+    border-radius: 3px;
+}
+
+.form-heading {
+    padding: 15px 30px 0 30px;
+    background-color: white;
+}
+
+.form-bottom {
+    background-color: #f3f3f3;;
+}
+
+#error_element {
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
